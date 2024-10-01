@@ -135,8 +135,8 @@ curl -X GET "http://localhost:3000/clients?email=example"
 
 ```bash
 curl -X POST "http://localhost:3000/clients" -H "Content-Type: application/json" -d '{
-  "name": "John Doe",
-  "email": "john@example.com",
+  "name": "Tony Montana",
+  "email": "tony@example.com",
   "phone": "+1234567890",
   "password": "password123"
 }'
@@ -146,8 +146,8 @@ curl -X POST "http://localhost:3000/clients" -H "Content-Type: application/json"
 
 ```bash
 curl -X PUT "http://localhost:3000/clients/1234567890abcdef" -H "Content-Type: application/json" -d '{
-  "name": "John Updated",
-  "email": "johnupdated@example.com"
+  "name": "Tony Updated",
+  "email": "tonyupdated@example.com"
 }'
 ```
 
